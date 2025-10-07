@@ -1,0 +1,418 @@
+/*------------------	GLOBAl		------------------*/
+/*------------------	GLOBAl		------------------*/
+
+@font-face {
+	font-family: "afuturicanord";
+	src: url(./fonts/a-futuricanord.woff2) format("woff2");
+}
+
+.font-afuturicanord {
+	font-family: "afuturicanord";
+	color: #960000;
+}
+
+
+
+.font-exo {
+	font-family: "Exo", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+.fira_code {
+	font-family: "Fira Code", monospace;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
+	color: #960000;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #960000;
+}
+
+h2 {
+	color: #960000;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #FFEBC7;
+}
+
+.btn {
+	border: 3px #960000 solid;
+	padding: 10px 25px;
+	cursor: pointer;
+}
+
+.btn__dark {
+	background-color: #960000;
+	color: white;
+	font-size: 25px;
+	width: 200px;
+	height: 75px;
+	transition: 0.5s;
+	border: none;
+}
+
+.wraper {
+	/*	outline: 2px black solid;*/
+
+	max-width: 1500px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+/*	outline: 2px grey solid;*/
+
+	width: 1200px;
+}
+
+/*------------------	HEADER		------------------*/
+/*------------------	HEADER		------------------*/
+
+.header-top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.header-top a {
+	font-size: 26px;
+	margin-right: 50px;
+	font-weight: bold;
+}
+
+.header-top a:last-child {
+	margin-right: 0px;
+}
+
+.header hr {
+	border: 1px #960000 solid;
+	background-color: #960000;
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.header-bottom-title{
+	margin: 20px 0;
+	text-align: center;
+}
+
+.header-bottom-block-info {
+	font-size: 50px;
+	height: fit-content;
+	width: 500px;
+	position: relative;
+}
+
+.header-bottom-block-info div {
+	margin-top: 50px;
+}
+
+.header-bottom-block-info-style-fonts {
+	color: black;
+}
+
+.header-bottom-block-info div a {
+	font-size: 40px;
+}
+
+.header-bottom-block-frontdev_info {
+	position: absolute;
+	text-align: right;
+	font-size: 20px;
+	width: 550px;
+	top: -40px;
+	right: -250px;
+}
+
+.header-bottom-avatar {
+	position: absolute;
+	top: -200px;
+	right: -600px;
+}
+
+.header-bottom-avatar img {
+	width: 350px;
+}
+
+/*------------------	MAIN		------------------*/
+/*------------------	MAIN		------------------*/
+
+.main {
+	margin-top: 220px;
+}
+
+.skills {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 200px;
+}
+
+.skills-title {
+	text-align: center;
+}
+.skills p {
+	color: #960000;
+	font-size: 50px;
+	font-weight: 100;
+}
+
+.skills span {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.skills-stek {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1008px;
+	margin-top: 35px;
+}
+
+.skills-stek-block {
+	width: 182px;
+	height: 182px;
+	background-color: #960000;
+	outline: 4px #960000 solid;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 35px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.skills-stek-block-icons {
+	fill: #FFEBC7;
+	text-align: center;
+	transition: 0.3s;
+}
+
+.skills-stek-block-title p {
+	margin-top: 20px;
+	font-size: 30px;
+	color: #FFEBC7;
+	transition: 0.3s;
+}
+
+.bg-icons {
+	transition: 0.3s;
+}
+
+.bg-icons_top {
+	transition: 0.3s;
+}
+
+.fonts-icons {
+	transition: 0.3s;
+}
+
+
+
+
+.about-my {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	position: relative;
+}
+
+.about-my-avatar {
+	position: absolute;
+	left: -100px;
+}
+
+.about-my-avatar img {
+	width: 450px;
+}
+.about-my-info {
+	text-align: right;
+	margin-right: 100px;
+}
+
+.about-my-info hr {
+	border-color: #960000;
+}
+
+.about-my-info-section div{
+	width: 700px;
+	font-size: 20px;
+	margin: 50px 0;
+}
+
+.about-my-info-section-vertical {
+	font-size: 60px;
+	transform: rotate(90deg);
+	position: absolute;
+	right: -165px;
+}
+
+.project {
+	margin: 350px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.project-block {
+	width: 900px;
+	height: 750px;
+	position: relative;
+}
+
+.project-block h2 {
+	position: absolute;
+	font-size: 60px;
+	top: 0;
+	left: 170px;
+}
+
+.project1 {
+	position: absolute;
+	top: 0;
+	left: -100px;
+}
+.project2 {
+	position: absolute;
+	top: 470px;
+	left: -100px;
+}
+.project3 {
+	position: absolute;
+	top: 385px;
+	left: 100px;
+}
+.project4 {
+	position: absolute;
+	top: 500px;
+	right: 390px;
+}
+.project5_1 {
+	position: absolute;
+	top: 100px;
+	right: -75px;
+}
+.project5_2 {
+	position: absolute;
+	top: 500px;
+	right: -75px;
+}
+
+.avatar3 {
+	position: absolute;
+	top: -220px;
+	right: 0;
+}
+
+/*------------------	FOOTER		------------------*/
+/*------------------	FOOTER		------------------*/
+.footer {
+	margin-top: 300px;
+	margin-bottom: 200px;
+	display: flex;
+	justify-content: center;
+}
+
+.footer-form {
+	display: flex;
+}
+
+.footer-form-input {
+	width: 500px;
+	margin-right: 75px;
+}
+
+.footer-form-input input {
+	width: 480px;
+	height: 25px;
+	margin: 10px 0;
+	padding: 20px;
+	border: 3px #960000 solid;
+	background-color: transparent;
+	font-size: 20px;
+	outline: none;
+}
+
+.footer-form-input textarea {
+	margin: 10px 0;
+	width: 480px;
+	height: 150px;
+	padding: 20px;
+	border: 3px #960000 solid;
+	background-color: transparent;
+	resize: none;
+	font-size: 20px;
+	outline: none;
+}
+
+.block-contact {
+	display: flex;
+	align-items: center;
+}
+
+.block-contact div{
+	margin-left: 10px;
+	display: flex;
+}
+
+.block-contact-element {
+	width: 70px;
+	height: 70px;
+	border: 3px #960000 solid;
+	margin: 0 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+}
+
+.block-contact-element svg{
+	transform: scale(1.3)
+}
+
+.footer-form-info {
+	width: 400px;
+	position: relative;
+}
+
+.footer-form-info h2 {
+	font-size: 48px;
+}
+
+.footer-fonts-style {
+	color: #960000;
+	width: 300px;
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+.footer-fonts-style-email {
+	color: black;
+	font-size: 35px;
+	font-weight: 900;
+}
+
+.footer-form-info img {
+	position: absolute;
+	top: 190px;
+	right: -140px;
+}

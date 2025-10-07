@@ -1,0 +1,101 @@
+.header-bottom {
+	opacity: 100%;
+	animation: opacity_anim 1s ease-in-out normal;
+	transition: 1s;
+}
+
+@keyframes opacity_anim {
+	0% {
+		transform: scale(0.75);
+		opacity: 0%;
+	}
+
+	100% {
+		transform: scale(1);
+		opacity: 100%;
+	}
+}
+
+
+.btn__lite {
+	position: relative;
+	overflow: hidden;
+}
+
+	.btn__lite:hover {
+		color: white;
+		transition-duration: 250ms;
+		
+	}
+
+		.btn__lite:hover::before {
+			width: 100%;
+		}
+
+			.btn__lite::before {
+				content: "";
+				position: absolute;
+				bottom: -1px;
+				left: 0%;
+				width: 0%;
+				height: 105%;
+				background: #960000;
+				transition-duration: 250ms;
+				z-index: -1;
+			}
+
+.btn__dark {
+	position: relative;
+	overflow: hidden;
+}
+
+	.btn__dark:hover {
+		color: white;
+		transition-duration: 250ms;
+		
+		font-size: 28px;
+		cursor: pointer;
+	}
+
+
+/*------------------	MAIN		------------------*/
+/*------------------	MAIN		------------------*/
+
+.skills-stek-block:hover {
+	background-color: #FFEBC7;
+	color: #960000;
+}
+
+.skills-stek-block:hover .skills-stek-block-title p{
+	color: #960000;
+}
+
+.skills-stek-block:hover .skills-stek-block-icons{
+	fill: #960000;
+}
+
+.skills-stek-block:hover .bg-icons{
+	fill: #960000;
+}
+
+.skills-stek-block:hover .bg-icons_top{
+	fill: #7d0101;
+}
+
+
+.skills-stek-block:hover .fonts-icons {
+	fill: #FFEBC7;
+}
+
+
+/*------------------	FOOTER		------------------*/
+/*------------------	FOOTER		------------------*/
+
+.block-contact-element:hover {
+	background-color: #960000;
+	cursor: pointer;
+}
+
+.block-contact-element:hover .bg-icons{
+	fill: #FFEBC7;
+}
